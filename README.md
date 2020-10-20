@@ -3,4 +3,5 @@ Eu fiquei fascinado com a forma que o projeto original funcionava e decidi segui
 
 ## Metas:
 [x] Listagem de posts
-[ ] Filtro de posts
+[x] Filtro de posts
+[x] Rework do código
