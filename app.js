@@ -39,11 +39,9 @@ const showLoader = () => {
     removeLoader();
 }
 window.addEventListener('scroll', () => {
-        const { clientHeight, scrollHeight, scrollTop } = document.documentElement
-        const isPageBottomAlmostReached = scrollTop + clientHeight >= scrollHeight - 10
-        if(isPageBottomAlmostReached){
-            showLoader();
-        }
-
-
-    })
+    const { clientHeight, scrollHeight, scrollTop } = document.documentElement
+    const isPageBottomAlmostReached = scrollTop + clientHeight >= scrollHeight - 10
+    if(isPageBottomAlmostReached){
+        showLoader();
+    }
+})
